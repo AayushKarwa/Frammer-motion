@@ -21,9 +21,9 @@ function Card({data,refference}) {
             </div>
             {data.tag.isOpen && (
                <div className='tag w-full py-4 bg-green-600 flex items-center justify-center'>
-               <h3 className='text-sm font-semibold'><a href="https://github.com/AayushKarwa">{data.tag.tagTitle}</a></h3>
+               <h3 className='text-sm font-semibold'><a href="https://github.com/AayushKarwa/Frammer-motion">{data.tag.tagTitle}</a></h3>
             </div>
-            )}
+            )}  
             
          </div>
          
