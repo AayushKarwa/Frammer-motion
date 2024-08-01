@@ -34,11 +34,38 @@ const data = [{
         tagTitle: "Print!",
         tagColor: "green"
     }
-    }]   
+    },{
+        desc: "This is a background note and cant be selected with you.",
+        filesize: ".9mb",
+        close: false,
+        tag:{
+            isOpen: true,
+            tagTitle: "Download Now!",
+            tagColor: "green"
+        },},{
+            desc: "This is a background note and cant be selected with you.",
+        filesize: ".2mb",
+        close: false,
+        tag:{
+            isOpen: false,
+            tagTitle: "Download Now!",
+            tagColor: "green"
+        }
+    
+        },{
+            desc: "This is a background note and cant be selected with you.",
+        filesize: ".7mb",
+        close: true,
+        tag:{
+            isOpen: true,
+            tagTitle: "Print!",
+            tagColor: "green"
+        }
+        }]   
     
 
   return (
-    <div ref={ref} className="fixed top-0 left-0 z-[3] w-full h-full flex gap-5 flex-wrap p-5">
+    <div ref={ref} className="fixed top-0 left-0 z-[3] w-full h-full flex gap-10 flex-wrap p-5">
         {data.map((item,index)=>(
             <Card data = {item} refference = {ref} />
         ))}
