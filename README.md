@@ -56,6 +56,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any questions or feedback, please contact me at [Aayushkarwa.work@gmail.com].
 
----
-
-Feel free to customize the repository name, contact information, and other details as needed.
