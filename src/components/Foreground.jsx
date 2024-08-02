@@ -8,7 +8,7 @@ function Foreground() {
     const ref = useRef(null);
 
 const data = [{
-    desc: "This is a background note and cant be selected with you.",
+    desc: "Which is better javascript or Typescript? huhh!",
     filesize: ".9mb",
     close: false,
     tag:{
@@ -16,7 +16,7 @@ const data = [{
         tagTitle: "Download Now!",
         tagColor: "green"
     },},{
-        desc: "This is a background note and cant be selected with you.",
+        desc: "The future is all about Web3",
     filesize: ".2mb",
     close: false,
     tag:{
@@ -26,7 +26,7 @@ const data = [{
     }
 
     },{
-        desc: "This is a background note and cant be selected with you.",
+        desc: "Why the need for centralised exchange if we have decentralisation",
     filesize: ".7mb",
     close: true,
     tag:{
@@ -35,7 +35,7 @@ const data = [{
         tagColor: "green"
     }
     },{
-        desc: "This is a background note and cant be selected with you.",
+        desc: "To get the rust syntax is a pain in the ass.",
         filesize: ".9mb",
         close: false,
         tag:{
@@ -43,7 +43,7 @@ const data = [{
             tagTitle: "Download Now!",
             tagColor: "green"
         },},{
-            desc: "This is a background note and cant be selected with you.",
+            desc: "If you would have to buy a cryto which one it would be?? obvio ETH",
         filesize: ".2mb",
         close: false,
         tag:{
@@ -53,7 +53,7 @@ const data = [{
         }
     
         },{
-            desc: "This is a background note and cant be selected with you.",
+            desc: "Web2 or Web3? buddyy Web 2.0 + Web 3.0!",
         filesize: ".7mb",
         close: true,
         tag:{
